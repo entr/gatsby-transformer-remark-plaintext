@@ -1,6 +1,6 @@
 {
   "name": "gatsby-transformer-remark-plaintext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a new graphql field `plainText` on every MarkdownRemark node",
   "keywords": [
     "gatsby",
