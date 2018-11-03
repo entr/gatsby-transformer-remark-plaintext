@@ -1,11 +1,11 @@
 {
   "name": "gatsby-transformer-remark-plaintext",
   "version": "1.0.0",
-  "description": "Adds a plainText field to MarkdownRemark nodes providing a plain text version of document's body",
-  "main": "index.js",
+  "description": "Creates a new graphql field `plainText` on every MarkdownRemark node",
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "gatsby-transform-remark"
   ],
   "peerDependencies": {
     "gatsby": "^2.0.33",
