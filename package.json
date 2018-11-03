@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-transformer-remark-plaintext",
+  "version": "1.0.0",
+  "description": "Adds a plainText field to MarkdownRemark nodes providing a plain text version of document's body",
+  "main": "index.js",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "peerDependencies": {
+    "gatsby": "^2.0.33",
+    "gatsby-transformer-remark": "^2.1.11"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+  },
+  "author": "Zlatko Zlatev",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "babel-preset-gatsby-package": "^0.1.2",
+    "cross-env": "^5.2.0"
+  },
+  "dependencies": {
+    "strip-markdown": "^3.0.2"
+  }
+}
